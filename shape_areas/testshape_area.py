@@ -1,5 +1,5 @@
 import unittest
-from main import Area
+from .shape_areas import Area
 
 class TestArea(unittest.TestCase):
     def setUp(self):
