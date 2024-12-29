@@ -1,9 +1,9 @@
 import unittest
-from .shape_areas import Area
+from .shape_areas import ShapeArea
 
 class TestArea(unittest.TestCase):
     def setUp(self):
-        self.area = Area()
+        self.area = ShapeArea()
 
     def test_square(self):
         self.assertEqual(self.area.square(2), 4.0)

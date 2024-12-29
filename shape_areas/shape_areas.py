@@ -1,5 +1,5 @@
 
-class Area:
+class ShapeArea:
     def __init__(self) -> None:
         return
     
